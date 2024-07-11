@@ -33,7 +33,7 @@ const Hero: FC = memo(() => {
             </h1>
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl relative">{name}</h1>
 
-            {description && <p className="text-white">{description}</p>}
+            {description && <div className="text-white">{description}</div>}
             <div className="flex gap-x-4 text-neutral-100">
               <Socials />
             </div>

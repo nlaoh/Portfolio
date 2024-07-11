@@ -70,7 +70,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 export const heroData: Hero = {
   imageSrc: heroImage,
   secondaryName: `Hi, I'm Natch!`,
-  name: `Come Explore my Software Engineering Journey.`,
+  name: `Explore my Software Engineering Journey.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -84,7 +84,7 @@ export const heroData: Hero = {
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me playing sports with some mates, experimenting with some{' '}
+        In my free time, you can catch me playing sports with some mates, experimenting with some{' '}
         <strong className="text-stone-100">game development</strong> projects, or exploring beautiful{' '}
         <strong className="text-stone-100">hiking trails</strong>.
       </p>
