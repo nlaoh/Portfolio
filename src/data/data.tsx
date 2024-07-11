@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: "Hi, I'm Natch.",
+  description: "A site built by Natch to display his portfolio.",
 };
 
 /**
@@ -69,13 +69,12 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hi, I'm Natch!`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Victoria/Melbourne-based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently studying
+        a <strong className="text-stone-100">Bachelor's of Software Engineering (Honours)</strong> at RMIT University, where I'm learning modern software development, testing, and design techniques, to apply in the development and maintenance of mobile applications and enterprise applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
