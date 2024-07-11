@@ -52,7 +52,7 @@ export const homePageMeta: HomepageMeta = {
  * Section definition
  */
 export const SectionId = {
-  Hero: 'hero',
+  Hero: 'home',
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
@@ -70,7 +70,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 export const heroData: Hero = {
   imageSrc: heroImage,
   secondaryName: `Hi, I'm Natch!`,
-  name: `Explore my Software Engineering Journey.`,
+  name: `Let's Explore my Software Engineering Journey.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
