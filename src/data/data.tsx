@@ -45,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: "Hi, I'm Natch.",
-  description: "A site built by Natch to display his portfolio.",
+  description: 'A site built by Natch to display his portfolio.',
 };
 
 /**
@@ -69,17 +69,24 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Hi, I'm Natch!`,
+  secondaryName: `Hi, I'm Natch!`,
+  name: `Come Explore my Software Engineering Journey.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria/Melbourne-based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently studying
-        a <strong className="text-stone-100">Bachelor's of Software Engineering (Honours)</strong> at RMIT University, where I'm learning modern software development, testing, and design techniques, to apply in the development and maintenance of mobile applications and enterprise applications.
+        Based in Victoria/Melbourne, I am currently pursuing a
+        <strong className="text-stone-100"> Bachelor's of Software Engineering (Honours) </strong>
+        at RMIT University. My studies encompass a wide range of software engineering disciplines including{' '}
+        <strong className="text-stone-100">
+          modern software requirements, development, testing, and design techniques.
+        </strong>{' '}
+        I apply these skills across a diverse range of projects including mobile, web, and enterprise applications.
       </p>
+
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me playing sports with some mates, experimenting with some{' '}
+        <strong className="text-stone-100">game development</strong> projects, or exploring beautiful{' '}
+        <strong className="text-stone-100">hiking trails</strong>.
       </p>
     </>
   ),
