@@ -1,17 +1,17 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
+  // BuildingOffice2Icon,
+  // CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -113,58 +113,60 @@ export const aboutData: About = {
   description: (
     <>
       <p>
-        Hey! I'm Natch and I'm a proactive and dedicated undergraduate student in Computer Science with strong
-        programming skills and hands-on experience in various environments. I seek to leverage my problem-solving
+        Hey! I'm <b>Natch</b> and I'm a proactive and dedicated undergraduate student in Computer Science with
+        strong programming skills and hands-on experience in various environments. I seek to leverage my problem-solving
         abilities and technical knowledge in a dynamic software engineering role.
       </p>
       <p>I am well-versed in the following skills:</p>
-      <ol>
-        <li>- Programming Languages: Python, Java, C++</li>
-        <li>- Scripting: Shell scripting - Operating Systems: Linux (Ubuntu)</li>
-        <li>- Tools & Technologies: Git, Docker, SQL</li>
-        <li>- Networking: Basic understanding of TCP/IP, DNS, DHCP</li>
-        <li>- Databases: MySQL, PostgreSQL</li>
+      <ul>
+        <li>
+          <b>Programming Languages:</b> Python, Java, C++
+        </li>
+        <li>
+          <b>Scripting:</b> Shell scripting - <b>Operating Systems:</b> Linux (Ubuntu)
+        </li>
+        <li>
+          <b>Tools & Technologies:</b> Git, Docker, SQL
+        </li>
+        <li>
+          <b>Networking:</b> Basic understanding of TCP/IP, DNS, DHCP
+        </li>
+        <li>
+          <b>Databases:</b> MySQL, PostgreSQL
+        </li>
         <li>…Among many others!</li>
-      </ol>
+      </ul>
       <p>
         I have had experience in various personal projects, that are outlined in my CV; but here are a few of my
         proudest projects:
       </p>
-      <ol>
-        <li>- VX User research with Tourism North East (TNE)</li>
-        <li>- Mock full-stack e-commerce application for fresh produce</li>
-        <li>- A website that displays climate change data sourced from the Australian Bureau of Meteorology</li>
-        <li>- Volunteering in the development of the revised IOTAA 2023 website.</li>
-      </ol>
+      <ul>
+        <li>
+          <b>VX User research with Tourism North East (TNE)</b>
+        </li>
+        <li>
+          <b>Mock full-stack e-commerce application for fresh produce</b>
+        </li>
+        <li>
+          <b>A website that displays climate change data sourced from the Australian Bureau of Meteorology</b>
+        </li>
+        <li>
+          <b>Volunteering in the development of the revised IOTAA 2023 website</b>.
+        </li>
+      </ul>
       <p>
         I've developed various fundamental skills for programming from my lifelong journey in education. I’ve always
         loved solving problems and developing solutions that feel satisfying.
       </p>
     </>
   ),
-  //   description: `Hey! I'm Natch and I'm a proactive and dedicated undergraduate student in Computer Science with strong programming skills and hands-on experience in various environments. I seek to leverage my problem-solving abilities and technical knowledge in a dynamic software engineering role.
-  // I am well-versed in the following skills:
-  // - Programming Languages: Python, Java, C++
-  // - Scripting: Shell scripting - Operating Systems: Linux (Ubuntu)
-  // - Tools & Technologies: Git, Docker, SQL
-  // - Networking: Basic understanding of TCP/IP, DNS, DHCP
-  // - Databases: MySQL, PostgreSQL
-
-  // …Among many others!
-
-  // I have had experience in various personal projects, that are outlined in my CV; but here are a few of my proudest projects:
-  // - VX User research with Tourism North East (TNE)
-  // - A website that displays climate change data sourced from the Australian Bureau of Meteorology
-  // - Volunteering in the development of the revised IOTAA 2023 website.
-
-  // I've developed various fundamental skills for programming from my lifelong journey in education. I’ve always loved solving problems and developing solutions that feel satisfying.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Melbourne, Victoria', Icon: MapIcon},
+    // {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Thai | Australian | New Zealander', Icon: FlagIcon},
+    {label: 'Interests', text: 'Fitness, Tech, Reading', Icon: SparklesIcon},
+    {label: 'Study', text: 'Royal Melbourne Institute of Technology (RMIT)', Icon: AcademicCapIcon},
+    // {label: 'Employment', text: '', Icon: BuildingOffice2Icon},
   ],
 };
 
