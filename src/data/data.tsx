@@ -12,19 +12,19 @@ import GithubIcon from '../components/Icon/GithubIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+// import porfolioImage2 from '../images/portfolio/portfolio-2.g';
+// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -45,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: "Hi, I'm Natch.",
-  description: 'A site built by Natch to display his portfolio.',
+  description: 'A site built by Natch.',
 };
 
 /**
@@ -182,13 +182,13 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
+        name: 'Thai',
         level: 4,
       },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+      // {
+      //   name: 'Japanese',
+      //   level: 3,
+      // },
     ],
   },
   {
@@ -199,7 +199,7 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Javascript',
         level: 7,
       },
       {
@@ -216,29 +216,29 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'REST APIs',
+        level: 7,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'MySQL',
+        level: 7,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Programming languages',
     skills: [
       {
-        name: 'React Native',
+        name: 'Java',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'C++',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'C#',
+        level: 8,
       },
     ],
   },
@@ -249,71 +249,71 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
+    title: 'Personal Website Landing Page',
+    description: 'Personal website that displays my coding journey and my proudest projects.',
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Project title 2',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage2,
+  // },
+  // {
+  //   title: 'Project title 3',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage3,
+  // },
+  // {
+  //   title: 'Project title 4',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage4,
+  // },
+  // {
+  //   title: 'Project title 5',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage5,
+  // },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage7,
+  // },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage11,
+  // },
 ];
 
 /**
@@ -411,11 +411,11 @@ export const contact: ContactSection = {
       text: 'natchanonlaoharawee',
       href: 'www.linkedin.com/in/natchanonlaoharawee',
     },
-    {
-      type: ContactType.Twitter,
-      text: 'NatchLaoharawee',
-      href: 'https://x.com/NatchLaoharawee',
-    },
+    // {
+    //   type: ContactType.Twitter,
+    //   text: 'NatchLaoharawee',
+    //   href: 'https://x.com/NatchLaoharawee',
+    // },
     {
       type: ContactType.Github,
       text: 'NatchanonLaoharawee',
@@ -432,5 +432,5 @@ export const socialLinks: Social[] = [
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/natchanonlaoharawee'},
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://x.com/NatchLaoharawee'},
+  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://x.com/NatchLaoharawee'},
 ];

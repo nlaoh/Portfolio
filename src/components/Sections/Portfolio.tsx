@@ -1,4 +1,4 @@
-import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
+                 import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
@@ -23,6 +23,9 @@ const Portfolio: FC = memo(() => {
                   className={classNames(
                     'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
                   )}>
+                <h3 className="self-center text-l font-bold text-white mb-2">
+                  {title}
+                </h3>
                   <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
                   <ItemOverlay item={item} />
                 </div>
