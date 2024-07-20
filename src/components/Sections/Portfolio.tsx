@@ -19,14 +19,18 @@ const Portfolio: FC = memo(() => {
             const {title, image} = item;
             return (
               <div className="pb-6" key={`${title}-${index}`}>
+                {/* Div is around   */}
                 <div
                   className={classNames(
                     'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
                   )}>
-                <h3 className="self-center text-l font-bold text-white mb-2">
-                  {title}
-                </h3>
-                  <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
+                  <h3 className="self-center text-l font-bold text-white mb-2">
+                    {title}
+                  </h3>
+                  <Image alt={title} 
+                  className="h-full w-full" 
+                  // placeholder="blur" 
+                  src={image} />
                   <ItemOverlay item={item} />
                 </div>
               </div>
@@ -78,7 +82,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
       <div className="relative h-full w-full p-4">
         <div className="flex h-full w-full flex-col gap-y-2 overflow-y-auto overscroll-contain">
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
-          <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
+          <div className="text-xs text-white opacity-100 sm:text-sm">{description}</div>
         </div>
         <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
       </div>

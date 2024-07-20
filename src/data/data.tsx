@@ -15,7 +15,9 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-// import porfolioImage2 from '../images/portfolio/portfolio-2.g';
+import portfolioGif1 from '../images/portfolio/portfolioGif-1.gif';
+import portfolioGif2 from '../images/portfolio/test2.gif';
+import portfolioGif3 from '../images/portfolio/test3.gif';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -250,33 +252,52 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Personal Website Landing Page',
-    description: 'Personal website that displays my coding journey and my proudest projects.',
+    description: (
+      <>
+      <p>
+        Personal website that displays my coding journey and my proudest projects.
+      </p>
+      <p>Learned the following:</p>
+      <li>Typescript</li>
+      <li>Tailwind</li>
+      </>
+    ),
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
-  // {
-  //   title: 'Project title 2',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage2,
-  // },
+  {
+    title: 'Project title 2',
+    description: (
+      <>
+      <p>
+        Mock fullstack e-commerce application that taught me the core of frontend and backend of websites using React.js for the frontend and Express.js for the backend.
+      </p>
+      <p>Learned the following:</p>
+      <li>CSS Animations</li>
+      <li>React.js</li>
+      <li>HTML Forms</li>
+      </>
+    ),
+    url: 'https://reactresume.com',
+    image: portfolioGif1,
+  },
   // {
   //   title: 'Project title 3',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage3,
+  //   image: portfolioImage,
   // },
   // {
   //   title: 'Project title 4',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage4,
+  //   image: portfolioGif2,
   // },
   // {
   //   title: 'Project title 5',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage5,
+  //   image: portfolioGif3,
   // },
   // {
   //   title: 'Project title 6',

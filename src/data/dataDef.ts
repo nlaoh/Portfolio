@@ -79,7 +79,8 @@ export interface SkillGroup {
  */
 export interface PortfolioItem {
   title: string;
-  description: string;
+  description: JSX.Element;
+  // description: string;
   url: string;
   image: string | StaticImageData;
 }
