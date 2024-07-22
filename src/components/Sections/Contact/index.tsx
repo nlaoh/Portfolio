@@ -36,10 +36,11 @@ const Contact: FC = memo(() => {
             {/* <ContactForm /> */}
             <div className="mt-6">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33230.704530168!2d144.3937378!3d-37.9707261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%2C%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1638389569543!5m2!1sen!2sus"
                 className="grid min-h-[280px] min-w-[440px] grid-cols-1 gap-y-4 rounded-lg shadow-lg shadow-black/30 lg:shadow-xl"
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"/>
+                referrerPolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33230.704530168!2d144.3937378!3d-37.9707261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%2C%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1638389569543!5m2!1sen!2sus"
+              />
             </div>
           </div>
           <div className="order-1 col-span-1 flex flex-col gap-y-4 md:order-2">

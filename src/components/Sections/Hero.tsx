@@ -1,14 +1,14 @@
-import { ChevronDownIcon } from '@heroicons/react/24/outline';
+import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
-import { FC, memo, useState } from 'react';
+import {FC, memo, useState} from 'react';
 
-import { heroData, SectionId } from '../../data/data';
+import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const { imageSrc, secondaryName, name, description, actions } = heroData;
+  const {imageSrc, secondaryName, name, description, actions} = heroData;
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -18,12 +18,12 @@ const Hero: FC = memo(() => {
           alt={`${name}-image`}
           className={classNames(
             'absolute z-0 h-full w-full object-cover transition-opacity duration-1000',
-            { 'opacity-100': imageLoaded, 'opacity-0': !imageLoaded }
+            {'opacity-100': imageLoaded, 'opacity-0': !imageLoaded}
           )}
+          onLoad={() => setImageLoaded(true)}
           placeholder="blur"
           priority
           src={imageSrc}
-          onLoad={() => setImageLoaded(true)}
         />
         <div className="z-10 max-w-screen-lg px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
@@ -43,7 +43,7 @@ const Hero: FC = memo(() => {
               <Socials />
             </div>
             <div className="flex w-full justify-center gap-x-4">
-              {actions.map(({ href, text, primary, Icon }) => (
+              {actions.map(({href, text, primary, Icon}) => (
                 <a
                   className={classNames(
                     'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
@@ -51,8 +51,8 @@ const Hero: FC = memo(() => {
                   )}
                   href={primary ? href : `#${SectionId.Contact}`} // Open PDF link in new tab, others in same tab
                   key={text}
-                  target={primary ? '_blank' : '_self'} // Use '_blank' for new tab, '_self' for same tab
                   rel={primary ? 'noopener noreferrer' : ''} // Security best practices for '_blank' links
+                  target={primary ? '_blank' : '_self'} // Use '_blank' for new tab, '_self' for same tab
                 >
                   {text}
                   {Icon && <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6" />}
