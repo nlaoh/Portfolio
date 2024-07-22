@@ -76,17 +76,17 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 const getGreeting = () => {
   const hours = new Date().getHours();
   if (hours < 12) {
-    return "Selamat pagi";
+    return 'Selamat pagi';
   } else if (hours < 18) {
-    return "Selamat siang";
+    return 'Selamat siang';
   } else {
-    return "Selamat malam";
+    return 'Selamat malam';
   }
 };
 export const heroData: Hero = {
   imageSrc: heroImage,
   secondaryName: `${getGreeting()}, I'm Natch!`,
-  name: `Let's Explore my Software Engineering Journey.`,  
+  name: `Let's Explore my Software Engineering Journey.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -137,16 +137,19 @@ export const aboutData: About = {
       <p>I am well-versed in the following skills:</p>
       <ul>
         <li>
-          <b>Programming Languages:</b> Python, Java, C++
+          <b>Programming Languages:</b> Python, Java, C++, C, Assembly
         </li>
         <li>
-          <b>Scripting:</b> Shell scripting - <b>Operating Systems:</b> Linux (Ubuntu)
+          <b>Scripting:</b> Shell scripting
+        </li>
+        <li>
+          <b>Operating Systems:</b> Linux (Ubuntu), Kali Linux
         </li>
         <li>
           <b>Tools & Technologies:</b> Git, Docker, SQL
         </li>
         <li>
-          <b>Networking:</b> Basic understanding of TCP/IP, DNS, DHCP
+          <b>Networking:</b> Basic understanding of TCP/IP, UDP, DNS, DHCP
         </li>
         <li>
           <b>Databases:</b> MySQL, PostgreSQL
@@ -408,19 +411,19 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Dean Cleave-Smith',
       title: 'Head of Visitor Experience at Tourism North East',
-      text: "Having Natchanon was a remarkable experience. His expertise in programming, combined with an innovative approach to problem-solving, and consistently resulted in excellent products. He demonstrated exceptional discipline to stay on task and deliver quality project deliverables.",
+      text: 'Having Natchanon was a remarkable experience. His expertise in programming, combined with an innovative approach to problem-solving, and consistently resulted in excellent products. He demonstrated exceptional discipline to stay on task and deliver quality project deliverables.',
       image: avatar1,
     },
     {
       name: 'Navin Karunatilaka',
       title: 'Member Services Manager at IoT Alliance Australia',
-      text: "I highly recommend Natchanon for their outstanding technical abilities and dedication to excellence. He played a pivotal role in the overhaul of the frontend of our website, showcasing not only his high attention to detail required for analysis but also his ability to work collaboratively in a team environment. His contributions significantly enhanced the success of the look of our overall website.",
+      text: 'I highly recommend Natchanon for their outstanding technical abilities and dedication to excellence. He played a pivotal role in the overhaul of the frontend of our website, showcasing not only his high attention to detail required for analysis but also his ability to work collaboratively in a team environment. His contributions significantly enhanced the success of the look of our overall website.',
       image: avatar2,
     },
     {
       name: 'Owen Harris',
       title: 'Teammate at RMIT',
-      text: "Natch is exceptional with a keen eye for detail and a passion for creating efficient solutions. His ability to understand and implement complex requirements was invaluable to our team during many of the projects we worked together on.",
+      text: 'Natch is exceptional with a keen eye for detail and a passion for creating efficient solutions. His ability to understand and implement complex requirements was invaluable to our team during many of the projects we worked together on.',
       image: avatar3,
     },
   ],
