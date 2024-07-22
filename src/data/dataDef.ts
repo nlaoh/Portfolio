@@ -40,6 +40,7 @@ interface HeroActionItem {
  */
 export interface About {
   profileImageSrc?: string;
+  profileImageLink: string;
   description: JSX.Element;
   aboutItems: AboutItem[];
 }
@@ -106,6 +107,7 @@ export interface TestimonialSection {
 export interface Testimonial {
   image?: string;
   name: string;
+  title: string;
   text: string;
 }
 

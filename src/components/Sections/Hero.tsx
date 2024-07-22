@@ -31,7 +31,7 @@ const Hero: FC = memo(() => {
               className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl relative"
               style={{
                 color: 'transparent',
-                WebkitTextStroke: '0.5px white' /* WebKit browsers (Safari, Chrome) */,
+                WebkitTextStroke: '1px white' /* WebKit browsers (Safari, Chrome) */,
                 // textStroke: '0.5px white' /* Standard */,
               }}>
               {secondaryName}
