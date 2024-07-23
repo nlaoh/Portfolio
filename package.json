@@ -12,7 +12,7 @@
     "start": "yarn next start",
     "sitemap": "yarn next-sitemap",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d next"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.16",
