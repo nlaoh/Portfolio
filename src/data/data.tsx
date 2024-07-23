@@ -11,11 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-// import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import portfolioGif1 from '../images/portfolio/portfolioGif-1.gif';
 // import portfolioGif2 from '../images/portfolio/test2.gif';
 // import portfolioGif3 from '../images/portfolio/test3.gif';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -30,6 +25,11 @@ import portfolioGif1 from '../images/portfolio/portfolioGif-1.gif';
 import avatar1 from '../images/avatar/avatar1.jpg';
 import avatar2 from '../images/avatar/avatar2.jpg';
 import avatar3 from '../images/avatar/avatar3.jpg';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
+import heroImage from '../images/header-background.webp';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import portfolioGif1 from '../images/portfolio/portfolioGif-1.gif';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
