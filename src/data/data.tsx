@@ -25,6 +25,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import avatar1 from '../images/avatar/avatar1.jpg';
 import avatar2 from '../images/avatar/avatar2.jpg';
 import avatar3 from '../images/avatar/avatar3.jpg';
+import avatar4 from '../images/avatar/avatar4.jpg';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
@@ -422,9 +423,15 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Owen Harris',
-      title: 'Teammate at RMIT',
+      title: 'RMIT Teammate',
       text: 'Natch is exceptional with a keen eye for detail and a passion for creating efficient solutions. His ability to understand and implement complex requirements was invaluable to our team during many of the projects we worked together on.',
       image: avatar3,
+    },
+    {
+      name: 'Falah Rasyidi',
+      title: 'RMIT Teammate',
+      text: 'Natch has an unwavering dedication to excellence. They strive for the highest standards in everything they do and inspire those around them to do the same. Their commitment to continuous improvement and learning is truly commendable, and it is reflected in the quality of their work and their professional growth.',
+      image: avatar4,
     },
   ],
 };
