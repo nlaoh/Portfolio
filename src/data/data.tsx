@@ -442,7 +442,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'The following are the best ways to reach out to me: best to reach out to you.',
+  description: 'The following are the best ways to reach out to me:',
   items: [
     {
       type: ContactType.Email,
