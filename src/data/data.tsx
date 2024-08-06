@@ -284,11 +284,11 @@ export const portfolioItems: PortfolioItem[] = [
         <li>Tailwind</li>
       </>
     ),
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
+    title: 'Fullstack E-commerce App',
     description: (
       <>
         <p>
@@ -301,7 +301,7 @@ export const portfolioItems: PortfolioItem[] = [
         <li>HTML Forms</li>
       </>
     ),
-    url: 'https://reactresume.com',
+    url: '',
     image: portfolioGif1,
   },
   // {
