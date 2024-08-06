@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo, useCallback, useState} from 'react';
 
-import {domainName, heroData, SectionId} from '../../data/data';
+import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
