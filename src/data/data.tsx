@@ -435,7 +435,7 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Falah Rasyidi',
       title: 'RMIT Teammate',
-      text: 'Natch has an unwavering dedication to excellence. They strive for the highest standards in everything they do and inspire those around them to do the same. Their commitment to continuous improvement and learning is truly commendable, and it is reflected in the quality of their work and their professional growth.',
+      text: 'Natch has an unwavering dedication to excellence. He strives for the highest standards in everything he does and inspire those around him to do the same. His commitment to continuous improvement and learning is truly commendable, and it is reflected in the quality of his work and his professional growth.',
       image: avatar4,
     },
   ],
