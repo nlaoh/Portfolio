@@ -46,6 +46,7 @@ import {
   TimelineItem,
 } from './dataDef';
 
+export const domainName = "WebsiteResume";
 /**
  * Page meta data
  */
@@ -109,7 +110,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/WebsiteResume/assets/resume.pdf',
+      href: `/${domainName}/assets/resume.pdf`,
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
