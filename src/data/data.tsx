@@ -467,7 +467,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.LinkedIn,
       text: 'natchanonlaoharawee',
-      href: 'www.linkedin.com/in/natchanonlaoharawee',
+      href: 'https://www.linkedin.com/in/natchanonlaoharawee',
     },
     // {
     //   type: ContactType.Twitter,
