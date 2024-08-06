@@ -77,12 +77,19 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 const getGreeting = () => {
   const hours = new Date().getHours();
   if (hours < 12) {
-    return 'Selamat pagi';
+    return 'Good morning';
   } else if (hours < 18) {
-    return 'Selamat siang';
+    return 'Good afternoon';
   } else {
-    return 'Selamat malam';
+    return 'Good evening';
   }
+  // if (hours < 12) {
+  //   return 'Selamat pagi';
+  // } else if (hours < 18) {
+  //   return 'Selamat siang';
+  // } else {
+  //   return 'Selamat malam';
+  // }
 };
 export const heroData: Hero = {
   imageSrc: heroImage,
