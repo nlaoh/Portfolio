@@ -30,6 +30,7 @@ import avatar4 from '../images/avatar/avatar4.jpg';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import portfolioSample1 from '../images/testimonial.webp';
 import portfolioGif1 from '../images/portfolio/portfolioGif-1.gif';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -303,6 +304,54 @@ export const portfolioItems: PortfolioItem[] = [
     ),
     url: '',
     image: portfolioGif1,
+  },
+  {
+    title: 'Unity Game Project',
+    description: (
+      <>
+        <p>
+         To be determined! 
+        </p>
+      </>
+    ),
+    url: '',
+    image: portfolioSample1,
+  },
+  {
+    title: 'IoTAA Front-end UI/UX Development',
+    description: (
+      <>
+        <p>
+         To be determined! 
+        </p>
+      </>
+    ),
+    url: '',
+    image: portfolioSample1,
+  },
+  {
+    title: 'Tourism North East Mobile App UI/UX Research',
+    description: (
+      <>
+        <p>
+         To be determined! 
+        </p>
+      </>
+    ),
+    url: '',
+    image: portfolioSample1,
+  },
+  {
+    title: 'C++/WSL/Linux-integration Maze Generator',
+    description: (
+      <>
+        <p>
+         To be determined! 
+        </p>
+      </>
+    ),
+    url: '',
+    image: portfolioSample1,
   },
   // {
   //   title: 'Project title 3',
