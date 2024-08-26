@@ -281,8 +281,10 @@ export const portfolioItems: PortfolioItem[] = [
       <>
         <p>Personal website that displays my coding journey and my proudest projects.</p>
         <p>Learned the following:</p>
-        <li>Typescript</li>
-        <li>Tailwind</li>
+        <ul className="list-disc list-inside">
+          <li>Typescript</li>
+          <li>TailwindCSS</li>
+        </ul>
       </>
     ),
     url: '',
@@ -297,9 +299,11 @@ export const portfolioItems: PortfolioItem[] = [
           React.js for the frontend and Express.js for the backend.
         </p>
         <p>Learned the following:</p>
-        <li>CSS Animations</li>
-        <li>React.js</li>
-        <li>HTML Forms</li>
+        <ul className="list-disc list-inside">
+          <li>CSS Animations</li>
+          <li>React.js</li>
+          <li>HTML Forms</li>
+        </ul>
       </>
     ),
     url: '',
