@@ -357,6 +357,18 @@ export const portfolioItems: PortfolioItem[] = [
     url: '',
     image: portfolioSample1,
   },
+  {
+    title: 'CS50 Scratch Co-op Couch Game',
+    description: (
+      <>
+        <p>
+         To be determined! 
+        </p>
+      </>
+    ),
+    url: '',
+    image: portfolioSample1,
+  },
   // {
   //   title: 'Project title 3',
   //   description: 'Give a short description of your project here.',
