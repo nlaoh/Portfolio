@@ -31,7 +31,11 @@ import avatar4 from '../images/avatar/avatar4.jpg';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import portfolioSample1 from '../images/testimonial.webp';
-import portfolioGif1 from '../images/portfolio/portfolioGif-1.gif';
+import portfolioGif1 from '../images/portfolio/fullstack(COMPRESS).gif';
+import portfolioGif2 from '../images/portfolio/2pccargame(COMPRESS).gif';
+import portfolioGif3 from '../images/portfolio/iotaapreview(COMPRESS).gif';
+import portfolioGif4 from '../images/portfolio/unitygamepreview(COMPRESS).gif';
+import portfolioGif5 from '../images/portfolio/mazerunnerpreview(COMPRESS).gif';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -319,7 +323,7 @@ export const portfolioItems: PortfolioItem[] = [
       </>
     ),
     url: '',
-    image: portfolioSample1,
+    image: portfolioGif4,
   },
   {
     title: 'IoTAA Front-end UI/UX Development',
@@ -331,7 +335,7 @@ export const portfolioItems: PortfolioItem[] = [
       </>
     ),
     url: '',
-    image: portfolioSample1,
+    image: portfolioGif3,
   },
   {
     title: 'Tourism North East Mobile App UI/UX Research',
@@ -355,7 +359,7 @@ export const portfolioItems: PortfolioItem[] = [
       </>
     ),
     url: '',
-    image: portfolioSample1,
+    image: portfolioGif5,
   },
   {
     title: 'CS50 Scratch Co-op Couch Game',
@@ -367,7 +371,7 @@ export const portfolioItems: PortfolioItem[] = [
       </>
     ),
     url: '',
-    image: portfolioSample1,
+    image: portfolioGif2,
   },
   // {
   //   title: 'Project title 3',
