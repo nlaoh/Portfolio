@@ -205,69 +205,24 @@ export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
     skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Thai',
-        level: 4,
-      },
-      // {
-      //   name: 'Japanese',
-      //   level: 3,
-      // },
+      {name: 'English', icon: "icon-park:english"},
+      {name: 'Thai', icon: "twemoji:flag-thailand",},
     ],
   },
   {
-    name: 'Frontend development',
+    name: "Programming Languages",
     skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Javascript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
+      {name: "JavaScript", icon: "logos:javascript"},
+      {name: "Python", icon: "logos:python"},
+      {name: "Java", icon: "logos:java"},
     ],
   },
   {
-    name: 'Backend development',
+    name: "Frameworks & Libraries",
     skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'REST APIs',
-        level: 7,
-      },
-      {
-        name: 'MySQL',
-        level: 7,
-      },
-    ],
-  },
-  {
-    name: 'Programming languages',
-    skills: [
-      {
-        name: 'Java',
-        level: 9,
-      },
-      {
-        name: 'C++',
-        level: 8,
-      },
-      {
-        name: 'C#',
-        level: 8,
-      },
+      { name: "React", icon: "logos:react" },
+      { name: "Node.js", icon: "logos:nodejs" },
+      { name: "Angular", icon: "logos:angular-icon" },
     ],
   },
 ];
