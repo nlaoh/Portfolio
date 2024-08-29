@@ -21,10 +21,10 @@ const Hero: FC = memo(() => {
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
           alt={`${name}-image`}
-          className={classNames(
-            'absolute z-0 h-full w-full object-cover transition-opacity duration-1000',
-            {'opacity-100': imageLoaded, 'opacity-0': !imageLoaded}
-          )}
+          className={classNames('absolute z-0 h-full w-full object-cover transition-opacity duration-1000', {
+            'opacity-100': imageLoaded,
+            'opacity-0': !imageLoaded,
+          })}
           onLoad={handleImageLoad} // Use the memoized function here
           placeholder="blur"
           priority
@@ -38,8 +38,7 @@ const Hero: FC = memo(() => {
                 color: 'transparent',
                 WebkitTextStroke: '1px white', // WebKit browsers (Safari, Chrome)
                 // textStroke: '0.5px white' /* Standard */,
-              }}
-            >
+              }}>
               {secondaryName}
             </h1>
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl relative">{name}</h1>
@@ -71,8 +70,7 @@ const Hero: FC = memo(() => {
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
           <a
             className="rounded-full bg-white p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
-            href={`#${SectionId.About}`}
-          >
+            href={`#${SectionId.About}`}>
             <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
           </a>
         </div>

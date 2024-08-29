@@ -65,13 +65,13 @@ export interface Stat {
  */
 
 export interface Skill {
-  name: string;        // The name of the skill (e.g., "JavaScript")
-  icon: string;        // The icon identifier for Iconify (e.g., "logos:javascript")
+  name: string; // The name of the skill (e.g., "JavaScript")
+  icon: string; // The icon identifier for Iconify (e.g., "logos:javascript")
 }
 
 export interface SkillGroup {
-  name: string;        // The name of the skill group (e.g., "Programming Languages")
-  skills: Skill[];     // An array of skills that belong to this group
+  name: string; // The name of the skill group (e.g., "Programming Languages")
+  skills: Skill[]; // An array of skills that belong to this group
 }
 
 /**

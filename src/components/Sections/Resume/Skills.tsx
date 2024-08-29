@@ -1,9 +1,10 @@
-import { FC, memo } from 'react';
-import { Icon } from '@iconify/react';
-import { SkillGroup as SkillGroupType } from '../../../data/dataDef';
+import {Icon} from '@iconify/react';
+import {FC, memo} from 'react';
 
-export const SkillGroup: FC<{ skillGroup: SkillGroupType }> = memo(({ skillGroup }) => {
-  const { name, skills } = skillGroup;
+import {SkillGroup as SkillGroupType} from '../../../data/dataDef';
+
+export const SkillGroup: FC<{skillGroup: SkillGroupType}> = memo(({skillGroup}) => {
+  const {name, skills} = skillGroup;
   return (
     <div className="flex flex-col">
       <span className="text-center text-lg font-bold">{name}</span>
@@ -18,12 +19,12 @@ export const SkillGroup: FC<{ skillGroup: SkillGroupType }> = memo(({ skillGroup
 
 SkillGroup.displayName = 'SkillGroup';
 
-export const SkillIcon: FC<{ skill: { name: string; icon: string } }> = memo(({ skill }) => {
-  const { name, icon } = skill;
+export const SkillIcon: FC<{skill: {name: string; icon: string}}> = memo(({skill}) => {
+  const {name, icon} = skill;
 
   return (
     <div className="flex flex-col items-center">
-      <Icon icon={icon} className="text-4xl" />
+      <Icon className="text-4xl" icon={icon} />
       <span className="mt-2 text-sm font-medium">{name}</span>
     </div>
   );

@@ -18,14 +18,14 @@ import avatar4 from '../images/avatar/avatar4.jpg';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
+import portfolioGif2 from '../images/portfolio/2pccargame(COMPRESS).gif';
+import portfolioGif1 from '../images/portfolio/fullstack(COMPRESS).gif';
+import portfolioGif3 from '../images/portfolio/iotaapreview(COMPRESS).gif';
+import portfolioGif5 from '../images/portfolio/mazerunnerpreview(COMPRESS).gif';
 // import portfolioSample1 from '../images/testimonial.webp';
 import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import portfolioImage2 from '../images/portfolio/tnepreview.png';
-import portfolioGif1 from '../images/portfolio/fullstack(COMPRESS).gif';
-import portfolioGif2 from '../images/portfolio/2pccargame(COMPRESS).gif';
-import portfolioGif3 from '../images/portfolio/iotaapreview(COMPRESS).gif';
 import portfolioGif4 from '../images/portfolio/unitygamepreview(COMPRESS).gif';
-import portfolioGif5 from '../images/portfolio/mazerunnerpreview(COMPRESS).gif';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -125,7 +125,7 @@ export const heroData: Hero = {
       href: `#${SectionId.Portfolio}`,
       text: 'My Portfolio',
       primary: false,
-    }
+    },
   ],
 };
 
@@ -205,24 +205,24 @@ export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
     skills: [
-      {name: 'English', icon: "icon-park:english"},
-      {name: 'Thai', icon: "twemoji:flag-thailand",},
+      {name: 'English', icon: 'icon-park:english'},
+      {name: 'Thai', icon: 'twemoji:flag-thailand'},
     ],
   },
   {
-    name: "Programming Languages",
+    name: 'Programming Languages',
     skills: [
-      {name: "JavaScript", icon: "logos:javascript"},
-      {name: "Python", icon: "logos:python"},
-      {name: "Java", icon: "logos:java"},
+      {name: 'JavaScript', icon: 'logos:javascript'},
+      {name: 'Python', icon: 'logos:python'},
+      {name: 'Java', icon: 'logos:java'},
     ],
   },
   {
-    name: "Frameworks & Libraries",
+    name: 'Frameworks & Libraries',
     skills: [
-      { name: "React", icon: "logos:react" },
-      { name: "Node.js", icon: "logos:nodejs" },
-      { name: "Angular", icon: "logos:angular-icon" },
+      {name: 'React', icon: 'logos:react'},
+      {name: 'Node.js', icon: 'logos:nodejs'},
+      {name: 'Angular', icon: 'logos:angular-icon'},
     ],
   },
 ];
@@ -271,12 +271,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-          Passion project that allows the player to move in a 3D environment and pick up various items and weapons.
-          The aim was to enhance my skills in Unity, game development and C#. 
+          Passion project that allows the player to move in a 3D environment and pick up various items and weapons. The
+          aim was to enhance my skills in Unity, game development and C#.
         </p>
         <p>
-          In this game the player can explore the forest
-          to attain new items by moving through certain dangers until defeating the lord of the forest at its centre.
+          In this game the player can explore the forest to attain new items by moving through certain dangers until
+          defeating the lord of the forest at its centre.
         </p>
         <p>Learned the following:</p>
         <ul className="list-disc list-inside">
@@ -294,13 +294,10 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-          IoTAA is a leading industry body partnered with brands such as Bosch, GHD, Optus, CSIRO, KPMG, and many more to
-          guide the development of efficient and ethical practices in Australia's growing IoT industry.
+          IoTAA is a leading industry body partnered with brands such as Bosch, GHD, Optus, CSIRO, KPMG, and many more
+          to guide the development of efficient and ethical practices in Australia's growing IoT industry.
         </p>
-        <p>
-          I was fortunate to be tasked with constructing the front-end of the site to help grow
-          IoTAA membership. 
-        </p>
+        <p>I was fortunate to be tasked with constructing the front-end of the site to help grow IoTAA membership.</p>
         <p>Learned the following:</p>
         <ul className="list-disc list-inside">
           <li>HTML5</li>
@@ -318,12 +315,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-          Sponsored by Victoria's SummerTech Live studentship program, I enjoyed a 3-month tenure working with the leading regional tourism board
-          for Victoria's High Country, Tourism North East. 
+          Sponsored by Victoria's SummerTech Live studentship program, I enjoyed a 3-month tenure working with the
+          leading regional tourism board for Victoria's High Country, Tourism North East.
         </p>
         <p>
-          I was tasked with analysing the needs of tourists and visitors of the High Country to improve engagement with the app and learnt a great deal about
-          project management and real interactions between software and end-users. 
+          I was tasked with analysing the needs of tourists and visitors of the High Country to improve engagement with
+          the app and learnt a great deal about project management and real interactions between software and end-users.
         </p>
         <p>Learned the following:</p>
         <ul className="list-disc list-inside">
@@ -341,12 +338,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-          Working alongside 4 other teammates at RMIT, we created a maze generation algorithm for a sandbox game
-          called Minecraft. 
+          Working alongside 4 other teammates at RMIT, we created a maze generation algorithm for a sandbox game called
+          Minecraft.
         </p>
         <p>
-          In this 3D sandbox world, we had to use an API (MCPP) with C++ and LC3 Assembly language to 
-          build the blocks around the world, or create the foundations for the maze within the world.
+          In this 3D sandbox world, we had to use an API (MCPP) with C++ and LC3 Assembly language to build the blocks
+          around the world, or create the foundations for the maze within the world.
         </p>
         <p>Learned the following:</p>
         <ul className="list-disc list-inside">
@@ -365,12 +362,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-          For the first week of the CS50 course in 2022, students were tasked with getting their feet with 
-          programming in Scratch. 
+          For the first week of the CS50 course in 2022, students were tasked with getting their feet with programming
+          in Scratch.
         </p>
         <p>
-          At this time, I had previous programming experience and was determined to make an interesting game that I've always
-          dreamt about making, so I used this as an excuse to flex my creativity!
+          At this time, I had previous programming experience and was determined to make an interesting game that I've
+          always dreamt about making, so I used this as an excuse to flex my creativity!
         </p>
         <p>Learned the following:</p>
         <ul className="list-disc list-inside">

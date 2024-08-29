@@ -30,7 +30,7 @@ declare module '*.mp4' {
 }
 
 declare module '*.jfif' {
-  const value: string; 
+  const value: string;
   export default value;
 }
 
