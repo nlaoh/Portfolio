@@ -20,7 +20,6 @@ const Portfolio: FC = memo(() => {
             const {title, image} = item;
             return (
               <div className="pb-6" key={`${title}-${index}`}>
-                {/* Div is around   */}
                 <div
                   className={classNames(
                     'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
