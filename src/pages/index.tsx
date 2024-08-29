@@ -40,7 +40,7 @@ const Home: FC = memo(() => {
       <Header />
       <div
         className={`${
-          isHeroVisible ? 'animate-fade-in' : ''
+          isHeroVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
         }`}
         ref={heroRef}
       >
@@ -48,7 +48,7 @@ const Home: FC = memo(() => {
       </div>
       <div
         className={`${
-          isAboutVisible ? 'animate-slide-in-from-left' : ''
+          isAboutVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
         }`}
         ref={aboutRef}
       >
@@ -56,7 +56,7 @@ const Home: FC = memo(() => {
       </div>
       <div
         className={`${
-          isResumeVisible ? 'animate-fade-in' : ''
+          isResumeVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
         }`}
         ref={resumeRef}
       >
@@ -64,7 +64,7 @@ const Home: FC = memo(() => {
       </div>
       <div
         className={`${
-          isPortfolioVisible ? 'animate-slide-in-from-left' : ''
+          isPortfolioVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
         }`}
         ref={portfolioRef}
       >
@@ -72,7 +72,7 @@ const Home: FC = memo(() => {
       </div>
       <div
         className={`${
-          isTestimonialsVisible ? 'animate-fade-in' : ''
+          isTestimonialsVisible ? 'animate-fade-in' : 'not-visible'
         }`}
         ref={testimonialsRef}
       >
@@ -80,7 +80,7 @@ const Home: FC = memo(() => {
       </div>
       <div
         className={`${
-          isContactVisible ? 'animate-slide-in-from-left' : ''
+          isContactVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
         }`}
         ref={contactRef}
       >
@@ -88,7 +88,7 @@ const Home: FC = memo(() => {
       </div>
       <div
         className={`${
-          isFooterVisible ? 'animate-fade-in' : ''
+          isFooterVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
         }`}
         ref={footerRef}
       >

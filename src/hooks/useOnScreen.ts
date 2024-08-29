@@ -1,15 +1,19 @@
-import { useState, useEffect, RefObject } from 'react';
+import { useState, useEffect } from 'react';
 
-const useOnScreen = (ref: RefObject<HTMLElement>, rootMargin = '0px') => {
-  const [isIntersecting, setIsIntersecting] = useState<boolean>(false);
+const useOnScreen = (ref: React.RefObject<Element>, threshold = 0.1) => {
+  const [isIntersecting, setIntersecting] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        console.log('Intersecting:', entry.isIntersecting); // Debugging line
-        setIsIntersecting(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          setIntersecting(true);
+          observer.unobserve(entry.target); // Stop observing after first trigger
+        }
       },
-      { rootMargin }
+      {
+        threshold,
+      }
     );
 
     if (ref.current) {
@@ -21,7 +25,7 @@ const useOnScreen = (ref: RefObject<HTMLElement>, rootMargin = '0px') => {
         observer.unobserve(ref.current);
       }
     };
-  }, [ref, rootMargin]);
+  }, [ref, threshold]);
 
   return isIntersecting;
 };
