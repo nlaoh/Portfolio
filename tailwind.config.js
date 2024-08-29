@@ -27,6 +27,20 @@ module.exports = {
             strokeDashoffset: '-360%',
           },
         },
+        // Section animation keyframes
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+        slideInFromLeft: {
+          '0%': { opacity: 0, transform: 'translateX(-20px)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+      },
+      // Section animation classes
+      animation: {
+        'fade-in': 'fadeIn 1s ease-out forwards',
+        'slide-in-from-left': 'slideInFromLeft 1s ease-out',
       },
       screens: {
         touch: {raw: 'only screen and (pointer: coarse)'},
