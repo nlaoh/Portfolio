@@ -11,17 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import portfolioGif2 from '../images/portfolio/test2.gif';
-// import portfolioGif3 from '../images/portfolio/test3.gif';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import avatar1 from '../images/avatar/avatar1.jpg';
 import avatar2 from '../images/avatar/avatar2.jpg';
 import avatar3 from '../images/avatar/avatar3.jpg';
@@ -29,8 +18,9 @@ import avatar4 from '../images/avatar/avatar4.jpg';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import portfolioSample1 from '../images/testimonial.webp';
+// import portfolioSample1 from '../images/testimonial.webp';
+import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import portfolioImage2 from '../images/portfolio/tnepreview.png';
 import portfolioGif1 from '../images/portfolio/fullstack(COMPRESS).gif';
 import portfolioGif2 from '../images/portfolio/2pccargame(COMPRESS).gif';
 import portfolioGif3 from '../images/portfolio/iotaapreview(COMPRESS).gif';
@@ -292,7 +282,7 @@ export const portfolioItems: PortfolioItem[] = [
       </>
     ),
     url: '',
-    image: porfolioImage1,
+    image: portfolioImage1,
   },
   {
     title: 'Fullstack E-commerce App',
@@ -306,6 +296,7 @@ export const portfolioItems: PortfolioItem[] = [
         <ul className="list-disc list-inside">
           <li>CSS Animations</li>
           <li>React.js</li>
+          <li>Node.js</li>
           <li>HTML Forms</li>
         </ul>
       </>
@@ -318,8 +309,19 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-         To be determined! 
+          Passion project that allows the player to move in a 3D environment and pick up various items and weapons.
+          The aim was to enhance my skills in Unity, game development and C#. 
         </p>
+        <p>
+          In this game the player can explore the forest
+          to attain new items by moving through certain dangers until defeating the lord of the forest at its centre.
+        </p>
+        <p>Learned the following:</p>
+        <ul className="list-disc list-inside">
+          <li>C#</li>
+          <li>Game Development</li>
+          <li>Unity</li>
+        </ul>
       </>
     ),
     url: '',
@@ -330,8 +332,20 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-         To be determined! 
+          IoTAA is a leading industry body partnered with brands such as Bosch, GHD, Optus, CSIRO, KPMG, and many more to
+          guide the development of efficient and ethical practices in Australia's growing IoT industry.
         </p>
+        <p>
+          I was fortunate to be tasked with constructing the front-end of the site to help grow
+          IoTAA membership. 
+        </p>
+        <p>Learned the following:</p>
+        <ul className="list-disc list-inside">
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>JQuery</li>
+        </ul>
       </>
     ),
     url: '',
@@ -342,20 +356,43 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-         To be determined! 
+          Sponsored by Victoria's SummerTech Live studentship program, I enjoyed a 3-month tenure working with the leading regional tourism board
+          for Victoria's High Country, Tourism North East. 
         </p>
+        <p>
+          I was tasked with analysing the needs of tourists and visitors of the High Country to improve engagement with the app and learnt a great deal about
+          project management and real interactions between software and end-users. 
+        </p>
+        <p>Learned the following:</p>
+        <ul className="list-disc list-inside">
+          <li>Software Requirements Analysis</li>
+          <li>Python</li>
+          <li>Project Management Tools, Slack, Trello, etc</li>
+        </ul>
       </>
     ),
     url: '',
-    image: portfolioSample1,
+    image: portfolioImage2,
   },
   {
-    title: 'C++/WSL/Linux-integration Maze Generator',
+    title: 'C++/Assembly Maze Generator',
     description: (
       <>
         <p>
-         To be determined! 
+          Working alongside 4 other teammates at RMIT, we created a maze generation algorithm for a sandbox game
+          called Minecraft. 
         </p>
+        <p>
+          In this 3D sandbox world, we had to use an API (MCPP) with C++ and LC3 Assembly language to 
+          build the blocks around the world, or create the foundations for the maze within the world.
+        </p>
+        <p>Learned the following:</p>
+        <ul className="list-disc list-inside">
+          <li>Assembly Language, x86, LC3, etc</li>
+          <li>C++</li>
+          <li>Linux CLI</li>
+          <li>WSL</li>
+        </ul>
       </>
     ),
     url: '',
@@ -366,8 +403,19 @@ export const portfolioItems: PortfolioItem[] = [
     description: (
       <>
         <p>
-         To be determined! 
+          For the first week of the CS50 course in 2022, students were tasked with getting their feet with 
+          programming in Scratch. 
         </p>
+        <p>
+          At this time, I had previous programming experience and was determined to make an interesting game that I've always
+          dreamt about making, so I used this as an excuse to flex my creativity!
+        </p>
+        <p>Learned the following:</p>
+        <ul className="list-disc list-inside">
+          <li>Game Development</li>
+          <li>Game Design</li>
+          <li>Programming Fundamentals</li>
+        </ul>
       </>
     ),
     url: '',
