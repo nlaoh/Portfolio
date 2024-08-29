@@ -1,7 +1,6 @@
 import dynamic from 'next/dynamic';
-import { FC, memo, useRef } from 'react';
+import {FC, memo, useRef} from 'react';
 
-import useOnScreen from '../hooks/useOnScreen';
 import Page from '../components/Layout/Page';
 import About from '../components/Sections/About';
 import Contact from '../components/Sections/Contact';
@@ -10,13 +9,14 @@ import Hero from '../components/Sections/Hero';
 import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
 import Testimonials from '../components/Sections/Testimonials';
-import { homePageMeta } from '../data/data';
+import {homePageMeta} from '../data/data';
+import useOnScreen from '../hooks/useOnScreen';
 
 // eslint-disable-next-line react-memo/require-memo
-const Header = dynamic(() => import('../components/Sections/Header'), { ssr: false });
+const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const Home: FC = memo(() => {
-  const { title, description } = homePageMeta;
+  const {title, description} = homePageMeta;
 
   // Section animations
   const heroRef = useRef<HTMLDivElement>(null);
@@ -35,63 +35,28 @@ const Home: FC = memo(() => {
   const isContactVisible = useOnScreen(contactRef);
   const isFooterVisible = useOnScreen(footerRef);
 
- return (
+  return (
     <Page description={description} title={title}>
       <Header />
-      <div
-        className={`${
-          isHeroVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
-        }`}
-        ref={heroRef}
-      >
+      <div className={`${isHeroVisible ? 'animate-slide-in-from-bottom' : 'not-visible'}`} ref={heroRef}>
         <Hero />
       </div>
-      <div
-        className={`${
-          isAboutVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
-        }`}
-        ref={aboutRef}
-      >
+      <div className={`${isAboutVisible ? 'animate-slide-in-from-bottom' : 'not-visible'}`} ref={aboutRef}>
         <About />
       </div>
-      <div
-        className={`${
-          isResumeVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
-        }`}
-        ref={resumeRef}
-      >
+      <div className={`${isResumeVisible ? 'animate-slide-in-from-bottom' : 'not-visible'}`} ref={resumeRef}>
         <Resume />
       </div>
-      <div
-        className={`${
-          isPortfolioVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
-        }`}
-        ref={portfolioRef}
-      >
+      <div className={`${isPortfolioVisible ? 'animate-slide-in-from-bottom' : 'not-visible'}`} ref={portfolioRef}>
         <Portfolio />
       </div>
-      <div
-        className={`${
-          isTestimonialsVisible ? 'animate-fade-in' : 'not-visible'
-        }`}
-        ref={testimonialsRef}
-      >
+      <div className={`${isTestimonialsVisible ? 'animate-fade-in' : 'not-visible'}`} ref={testimonialsRef}>
         <Testimonials />
       </div>
-      <div
-        className={`${
-          isContactVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
-        }`}
-        ref={contactRef}
-      >
+      <div className={`${isContactVisible ? 'animate-slide-in-from-bottom' : 'not-visible'}`} ref={contactRef}>
         <Contact />
       </div>
-      <div
-        className={`${
-          isFooterVisible ? 'animate-slide-in-from-bottom' : 'not-visible'
-        }`}
-        ref={footerRef}
-      >
+      <div className={`${isFooterVisible ? 'animate-slide-in-from-bottom' : 'not-visible'}`} ref={footerRef}>
         <Footer />
       </div>
     </Page>

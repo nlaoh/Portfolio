@@ -1,9 +1,13 @@
-import { useState, useEffect } from 'react';
+import {useEffect, useState} from 'react';
 
-const useOnScreen = (ref: React.RefObject<Element>, threshold = 0.1) => {
+const useOnScreen = (ref: React.RefObject<Element>, threshold = 0.00001) => {
   const [isIntersecting, setIntersecting] = useState(false);
 
   useEffect(() => {
+    const node = ref.current; // Create a local variable to store ref.current
+
+    if (!node) return; // Return early if ref.current is not defined
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -16,16 +20,12 @@ const useOnScreen = (ref: React.RefObject<Element>, threshold = 0.1) => {
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
+    observer.observe(node);
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
+      observer.unobserve(node); // Use the local variable here
     };
-  }, [ref, threshold]);
+  }, [ref, threshold]); // Ensure ref and threshold are included in the dependencies array
 
   return isIntersecting;
 };
