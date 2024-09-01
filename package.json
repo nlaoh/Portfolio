@@ -1,7 +1,7 @@
 {
   "name": "react-resume-template",
   "version": "2.0.0",
-  "homepage": "https://nlaoh.github.io/WebsiteResume/",
+  "homepage": "https://nlaoh.github.io/Portfolio/",
   "private": true,
   "scripts": {
     "build": "yarn compile && yarn next build",
@@ -24,6 +24,7 @@
     "next": "^14.2.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-resume-template": "file:",
     "ts-pattern": "^5.0.4",
     "yarn": "^1.22.22"
   },
